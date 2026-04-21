@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harnuolohun for NAAS 004</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-blue: #001f3f;
+            --gold: #d4af37;
+            --accent-red: #ff4500;
+            --white: #ffffff;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #000428, #004e92);
+            color: var(--white);
+            overflow-x: hidden;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            background: url('https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&q=80') center/cover no-repeat;
+            background-blend-mode: overlay;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 4px solid var(--gold);
+            box-shadow: 0 0 20px var(--gold);
+            margin-bottom: 20px;
+            animation: pulse 2s infinite;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            color: var(--gold);
+            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+        }
+
+        .tagline {
+            font-size: 1.2rem;
+            margin-top: 10px;
+            font-weight: 300;
+        }
+
+        /* Features Section */
+        .container {
+            max-width: 800px;
+            margin: -50px auto 50px;
+            padding: 20px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(15px);
+            border-radius: 20px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .stat-item {
+            text-align: center;
+            padding: 15px;
+            background: rgba(212, 175, 55, 0.15);
+            border-radius: 10px;
+            border: 1px solid var(--gold);
+        }
+
+        .stat-item h3 { margin: 0; font-size: 0.9rem; color: var(--gold); }
+        .stat-item p { margin: 5px 0 0; font-weight: bold; }
+
+        .cta-button {
+            display: block;
+            width: 100%;
+            padding: 20px;
+            background: linear-gradient(45deg, var(--accent-red), #ff8c00);
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.2rem;
+            border-radius: 50px;
+            transition: 0.3s transform ease;
+            box-shadow: 0 5px 15px rgba(255, 69, 0, 0.4);
+        }
+
+        .cta-button:hover {
+            transform: scale(1.05);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+        /* Mobile Adjustments */
+        @media (max-width: 600px) {
+            h1 { font-size: 2rem; }
+            .stats { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <img src="YOUR_IMAGE_LINK_HERE" alt="Harnuolohun" class="profile-img">
+        <p style="color: var(--accent-red); font-weight: bold;">🚨 NAASITE ARE YOU READY? 🚨</p>
+        <h1>HARNUOLOHUN</h1>
+        <p class="tagline">FOR ASSISTANT GENERAL SECRETARY (NAAS 004)</p>
+        <p>This is not just a campaign... <strong>This is a MOVEMENT.</strong></p>
+    </section>
+
+    <div class="container">
+        <div class="card">
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>💯 COMPETENCY</h3>
+                    <p>Verified</p>
+                </div>
+                <div class="stat-item">
+                    <h3>💯 TRANSPARENCY</h3>
+                    <p>Guaranteed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>💯 RELIABILITY</h3>
+                    <p>Assured</p>
+                </div>
+            </div>
+
+            <div style="margin-bottom: 30px;">
+                <h2 style="color: var(--gold); border-left: 4px solid var(--gold); padding-left: 10px;">Our Vision</h2>
+                <ul style="list-style: none; padding: 0;">
+                    <li style="margin: 15px 0;"><i class="fas fa-check-circle" style="color: var(--gold);"></i> No noise. No empty promises.</li>
+                    <li style="margin: 15px 0;"><i class="fas fa-check-circle" style="color: var(--gold);"></i> Real results for every NAASITE.</li>
+                    <li style="margin: 15px 0;"><i class="fas fa-check-circle" style="color: var(--gold);"></i> A voice that actually speaks for YOU.</li>
+                </ul>
+            </div>
+
+            <a href="#" class="cta-button">JOIN THE MOVEMENT 🚀</a>
+        </div>
+        
+        <p style="text-align: center; margin-top: 30px; font-size: 0.8rem; opacity: 0.7;">
+            #AnticipateHarnuolohun #NAAS004 #NoCap #WeMove
+        </p>
+    </div>
+
+</body>
+</html>
